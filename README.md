@@ -44,7 +44,7 @@ allprojects {
 
 ```
 dependencies {
-	        implementation 'com.gitee.clbDream:pdl-box_dimens:$version'
+	        implementation 'com.gitee.clbDream:pdl-box_videoplayer:$version'
 	}
 ```
 
