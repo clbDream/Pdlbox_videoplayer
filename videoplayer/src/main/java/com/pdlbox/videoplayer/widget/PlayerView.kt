@@ -316,7 +316,7 @@ class PlayerView @JvmOverloads constructor(
     }
 
     /**
-     * 设置返回监听
+     * 设置监听
      */
     fun setOnPlayListener(listener: OnPlayListener?) {
         this.listener = listener

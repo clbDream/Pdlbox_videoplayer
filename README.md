@@ -1,8 +1,9 @@
 # 潘多拉-视频播放器
 
-轻量视频播放器,该项目是从https://github.com/getActivity/AndroidProject-Kotlin中抽离出的一个视频播放器,没有单独设置项目,所以为了方便使用,单独剥离出来,可以单独在项目中使用
+轻量视频播放器,该项目是从https://github.com/getActivity/AndroidProject-Kotlin 中抽离出的一个视频播放器,之前没有
+单独设置项目,我在使用过程中觉得这个挺方便好用的,所以为了方便使用,单独剥离出来,可以单独在项目中使用,后续我也会基于这个项目进行后续功能的迭代开发
 
-[![](https://jitpack.io/v/com.gitee.clbDream/pdl-box_dimens.svg)](https://jitpack.io/#com.gitee.clbDream/pdl-box_dimens)
+[![](https://jitpack.io/v/com.gitee.clbDream/pdl-box_videoplayer.svg)](https://jitpack.io/#com.gitee.clbDream/pdl-box_videoplayer)
 
 ![](images/banner.png)
 
@@ -22,6 +23,9 @@
   ：[Pdlbox_Tools](https://github.com/clbDream/Pdlbox_Tools) ![](https://img.shields.io/github/stars/clbDream/Pdlbox_Tools.svg) ![](https://img.shields.io/github/forks/clbDream/Pdlbox_Tools.svg)
 * 尺寸库<Dimens>
   ：[Pdlbox_Dimens](https://github.com/clbDream/Pdlbox_Dimens) ![](https://img.shields.io/github/stars/clbDream/Pdlbox_Dimens.svg) ![](https://img.shields.io/github/forks/clbDream/Pdlbox_Dimens.svg)
+* 轻量视频播放器<VideoPlayer>
+  ：[Pdlbox_videoplayer](https://github.com/clbDream/Pdlbox_videoplayer) ![](https://img.shields.io/github/stars/clbDream/Pdlbox_videoplayer.svg) ![](https://img.shields.io/github/forks/clbDream/Pdlbox_videoplayer.svg)
+
 
 ## 如何使用(可参考内置页面VideoPlayActivity的使用)
 
@@ -80,7 +84,7 @@ setProgress                           : 设置视频播放进度
 getProgress                           : 获取视频播放进度
 getDuration                           : 获取视频的总时长
 setGestureEnabled                     : 设置手势开关
-setOnPlayListener                     : 设置返回监听
+setOnPlayListener                     : 设置监听
 showController                        : 显示面板
 hideController                        : 隐藏面板
 onClickBack                           : 点击了返回按钮（可在此处处理返回事件）
